@@ -68,6 +68,7 @@ class _TodoPageState extends State<HomeScreen> {
                         addTask(newTask);
                         await DataWriter.create(
                             newTask); // Pass newTask to the create method
+                        // ignore: use_build_context_synchronously
                         Navigator.of(context).pop();
                       }
                     },
