@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "824429547054",
+    "project_id": "fi-a3-mutahar",
+    "storage_bucket": "fi-a3-mutahar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824429547054:android:e4c69041bbd0e5c3d659bf",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824429547054-bmqefdvotjk2a7kiukrg323jsed8el2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3MzI9Zxg5sd8Eww2GWoNL-dscgXZZzuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824429547054-bmqefdvotjk2a7kiukrg323jsed8el2g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "824429547054-8gskrqb2t6kj1ebv6bfcq6g2nvgiktip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
