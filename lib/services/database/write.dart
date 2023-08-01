@@ -5,7 +5,7 @@ import 'package:uuid/uuid.dart';
 class DataWriter {
   static final _firestore = FirebaseFirestore.instance;
 
-  static Future<void> create(String task) async {
+  static Future<String> create(String task) async {
     final id = const Uuid().v4();
     try {
       await _firestore.collection('tasks').doc(id).set({
@@ -13,6 +13,7 @@ class DataWriter {
         'isDone': false,
       });
       debugPrint('Successfully added');
+      return id; // Return the document ID of the newly created task
     } catch (e) {
       debugPrint(e.toString());
       throw ('Some error occurred');
