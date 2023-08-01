@@ -1,5 +1,5 @@
 import 'package:firebase/firebase_options.dart';
-import 'package:firebase/screens/homescreen.dart';
+import 'package:firebase/screens/login.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(),
-      home: const HomeScreen(),
+      home: LoginPage(),
     );
   }
 }
